@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #82cfcb; /* Light Grey */
+    color: #0A0A0A; /* Dark Grey */
+}
+
+header {
+    background-color: #ec89b8; /* CL Pink */
+    color:  #0A0A0A; /* CL Black */
+    text-align: center;
+    padding: 1em 0;
+    font:rubik;
+}
+
+main {
+    flex-grow: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #0A0A0A; /* Dark Grey */
+    background-color: #f9c92a; /* White */
+    font: rubik;
+}
+
+footer {
+    background-color: #333; /* Dark Grey */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    font: rubik;
+}
+
+/* Links */
+a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+    font:rubik;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
+/* Accessibility */
+.keyboard-focus a:focus {
+    outline: 2px solid #007bff; /* Blue */
+}
